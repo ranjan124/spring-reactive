@@ -1,10 +1,10 @@
-package com.shieldteq.reactive;
+package com.shieldteq.reactor;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ReactiveApplicationTests {
+class ReactorApplicationTests {
 
 	@Test
 	void contextLoads() {
