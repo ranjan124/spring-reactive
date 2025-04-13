@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: reactor
+  data:
+    mongodb:
+      host: ${MONGO_HOST:localhost}
+      port: 27017
+      database: reactor
+      username: admin
+      password: secret123
+      authentication-database: admin
+      auto-index-creation: true
