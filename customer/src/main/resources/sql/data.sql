@@ -2,13 +2,13 @@ DROP TABLE IF EXISTS customer;
 DROP TABLE IF EXISTS portfolio_item;
 
 CREATE TABLE customer (
-                          id int AUTO_INCREMENT primary key,
+                          id int GENERATED ALWAYS AS IDENTITY primary key,
                           name VARCHAR(50),
                           balance int
 );
 
 CREATE TABLE portfolio_item (
-                                id int AUTO_INCREMENT primary key,
+                                id int GENERATED ALWAYS AS IDENTITY primary key,
                                 customer_id int,
                                 ticker VARCHAR(10),
                                 quantity int,
